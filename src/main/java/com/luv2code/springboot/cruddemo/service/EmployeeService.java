@@ -10,5 +10,5 @@ public interface EmployeeService {
     List<Employee> findAll();
     Employee findById(int id);
     void update(int id, Employee employee);
-    void delete(int id);
+    void deleteById(int id);
 }
